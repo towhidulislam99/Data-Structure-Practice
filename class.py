@@ -1,3 +1,5 @@
+import sys
+
 class Person:
     def __init__(self, first_name, last_name, age, gender, address):  # Fixed 'addess' to 'address'
         self.first_name = first_name
@@ -29,3 +31,4 @@ user_data = Person("Towhidul", "Islam", 20, "Male", "Bagdha")
 
 # Using describe_user method to display the user data
 user_data.describe_user()
+print(sys.getsizeof(user_data))
