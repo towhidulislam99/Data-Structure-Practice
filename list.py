@@ -65,3 +65,6 @@ print(list7)
 
 list7 = [x for x in list6 if x not in ['add', 'sum']]
 print(list7)
+
+list8 = [3**x for x in range(10)]
+print(list8)
