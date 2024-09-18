@@ -41,30 +41,39 @@
 
 #list Comprehension Example Practice
 
-list3 = [];
-for x in range(10):
-    list3.append(x);
-print(list3)
+# list3 = [];
+# for x in range(10):
+#     list3.append(x);
+# print(list3)
 
-list2 = [x for x in range(10)]
-print(list2)
+# list2 = [x for x in range(10)]
+# print(list2)
 
-list4 = [];
-for i in range(10):
-    if(i % 2 == 0):
-        list4.append(i)
-print(list4)
+# list4 = [];
+# for i in range(10):
+#     if(i % 2 == 0):
+#         list4.append(i)
+# print(list4)
 
-list5 = [x for x in range(10) if(x % 2 == 1)]
-print(list5)
+# list5 = [x for x in range(10) if(x % 2 == 1)]
+# print(list5)
 
-list6 = ['add', 'sum', 1, 2, 3, 4]
+# list6 = ['add', 'sum', 1, 2, 3, 4]
 
-list7 = [x for x in list6]
-print(list7)
+# list7 = [x for x in list6]
+# print(list7)
 
-list7 = [x for x in list6 if x not in ['add', 'sum']]
-print(list7)
+# list7 = [x for x in list6 if x not in ['add', 'sum']]
+# print(list7)
 
-list8 = [3**x for x in range(10)]
-print(list8)
+# list8 = [3**x for x in range(10)]
+# print(list8)
+
+#list MemberShip Testing
+
+list8 = [1, 2, 3, 4, 6, 90, 44]
+value = 9 in list8
+value1 = 6 in list8
+print(value)
+print(value1)
+
